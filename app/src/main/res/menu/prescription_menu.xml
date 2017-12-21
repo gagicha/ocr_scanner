@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/personaldetails"
+        android:title="Personal_Details">
+    <menu>
+        <item android:id="@+id/name"
+            android:title="Name" />
+        <item android:id="@+id/address"
+            android:title="Address" />
+        <item android:id="@+id/contactno"
+            android:title="Contact Number" />
+    </menu>
+    </item>
+    <item android:id="@+id/pharmacydetails"
+        android:title="Pharmacy Details" >
+        <menu>
+            <item android:id="@+id/pharname"
+                android:title="Pharmacy Name" />
+            <item android:id="@+id/pharaddress"
+                android:title="Pharmacy Address" />
+            <item android:id="@+id/pharcontactno"
+                android:title="Pharmacy Contact Number" />
+        </menu>
+    </item>
+    <item android:id="@+id/druginfo"
+        android:title="drud Info">
+        <menu>
+            <item android:id="@+id/drugname"
+                android:title="Drug Name" />
+            <item android:id="@+id/strength"
+                android:title="Drug Strength" />
+            <item android:id="@+id/rxnumber"
+                android:title="RX Number" />
+            <item android:id="@+id/quantity"
+                android:title="Drug Quantity" />
+            <item android:id="@+id/date"
+                android:title="Date of Issue" />
+            <item android:id="@+id/supply"
+                android:title="Days of Supply" />
+            <item android:id="@+id/refill"
+                android:title="Refill" />
+            <item android:id="@+id/ndc"
+                android:title="National Drug Code" />
+        </menu>
+    </item>
+    <item android:id="@+id/insurerinfo"
+        android:title="Insurer Info" >
+        <menu>
+            <item android:id="@+id/insurergroup"
+                android:title="Insurer Group" />
+            <item android:id="@+id/claimrefno"
+                android:title="claim Reference Number" />
+        </menu>
+    </item>
+    <item android:id="@+id/paymentinfo"
+        android:title="Payment Info" >
+        <menu>
+            <item android:id="@+id/copay"
+                android:title="copay Amount" />
+        </menu>
+    </item>
+</menu>
